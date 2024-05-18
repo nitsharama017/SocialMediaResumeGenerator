@@ -11,7 +11,7 @@ def login():
         login_screen.destroy()
         R.register_function()
     def login_clicked():
-        messagebox.showinfo("Directing", "Directing to your SocialMedia Resume")
+        messagebox.showinfo("Directing", "Directing to your SocialMedia Resume...")
         usernameValue =username.get()
         try:
             try:
